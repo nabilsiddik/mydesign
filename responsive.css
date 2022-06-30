@@ -1,0 +1,233 @@
+@media(min-width: 991px){
+    .col-lg-8 {
+        flex: 0 0 auto;
+        width: 75%!important;
+    }
+}
+
+@media(max-width: 1400px){
+    #dashboard_one .dashboard-one-middle {
+        padding: 30px 15px 50px 15px;
+        min-width: 60%;
+    }
+    #dashboard_two #dashboard_two_body #dashboard_one .dashboard-one-right {
+        width: 100%;
+        padding-left: 0px;
+    }
+    
+    #dashboard_two #dashboard_two_body #dashboard_next .doctor-info .col-two {
+        justify-content: start;
+    }
+    #dashboard_two #dashboard_two_body #dashboard_next .doctor-info .col-two {
+        margin: 20px 0;
+    }
+
+    #dashboard_two #dashboard_two_body #dashboard_next .doctor-info{
+        display: none;
+    }
+    
+}
+@media(max-width: 1199px){
+   #dashboard_one .dashboard-one-middle {
+        padding: 30px 15px 50px 15px;
+        min-width: 60%;
+    }
+    #dashboard_one .dashboard-one-right {
+        width: 100%;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    #dashboard_one .dashboard-one-middle .patients-info .patient-boxes .single-box {
+        padding: 35px 18px;
+    }
+    #dashboard_one .dashboard-one-right .upcoming-visits .visiting-list ul li {
+        margin-bottom: 35px;
+    }
+    #dashboard_one .dashboard-one-right .upcoming-visits .visiting-date {
+        margin-bottom: 35px;
+    }
+    .patient-boxes .col-md-4 {
+        flex: 0 0 auto;
+        width: 33.33333333%;
+        margin: 0;
+        padding: 0 5px;
+    }
+    #dashboard_two #dashboard_two_body #dashboard_one .dashboard-one-middle {
+        padding: 10px 30px;
+        min-width: 60%;
+    }
+    #dashboard_two #dashboard_two_body .side-menu {
+        width: 100px;
+    }
+    #dashboard_two #dashboard_two_body .side-menu ul li a {
+        padding: 0 38px;
+    }
+    #dashboard_two #dashboard_two_body #dashboard_next .left .appointments {
+        padding: 50px 0 0 10px;
+    }
+    
+    
+}
+
+
+@media(max-width: 991px){
+
+    #dashboard_one .dashboard-one-left{
+        top: 80px;
+        bottom: 0;
+        z-index: 9999;
+        width: 100%;
+        transform: translateX(-100%);
+        min-height: 92vh;
+        max-height: 92vh;
+        position: fixed;
+    }
+    #dashboard_one #mobile_menu_header {
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 9999;
+        background: #fff;
+    }
+    .dashboard-one-right{
+        padding-bottom: 30px;
+    }
+    #dashboard_one .dashboard-one-left .dashboard-side-menu {
+        align-items: start;
+        padding-left: 50px;
+        min-height: 92vh;
+        max-height: 92vh;
+    }
+       #dashboard_one .dashboard-one-left .dashboard-side-menu .dashboard-menu-bottom{
+        margin-bottom: 80px;
+    }
+
+    #dashboard_two #dashboard_two_body .side-menu{
+        position: fixed;
+        z-index: 999;
+        top: 80px;
+    }
+    #dashboard_two .dashboard-two-header{
+        position: fixed;
+        z-index: 999;
+        background: #fff;
+        width: 100%;
+    }
+    #dashboard_two #dashboard_two_body #dashboard_one .dashboard-one-right{
+        padding-right: 0;
+        padding: 30px;
+    }
+    
+    #dashboard_two #dashboard_two_body #dashboard_one .dashboard-one-middle .income-chart .chart-header{
+        margin-top: 90px;
+    }
+    #dashboard_two #dashboard_two_body #dashboard_next .left .appointments {
+        padding: 50px 0px 0px 50px;
+        margin-top: 50px;
+    }
+
+    #dashboard_two #dashboard_two_body #dashboard_next{
+        display: block;
+    }
+
+    
+}
+
+@media(max-width: 767px){
+    
+       #dashboard_one .mobile-elements{
+        display: block;
+    }
+       #dashboard_one .dashboard-one-middle .income-chart .chart-graph{
+        display: none;
+    }
+    
+    #dashboard_two #dashboard_two_body .side-menu{
+        transform: translateX(-100%);
+        background: #fff;
+        z-index: 999;
+    }
+    .row>*{
+        width: 100%;
+        max-width: 100%;
+        min-width: 100%!important;
+    }
+    
+    #dashboard_two #dashboard_two_body #mobile_bottom_menu{
+        display: block;
+    }
+    #dashboard_two .dashboard-two-header .header-middle{
+        display: none;
+    } 
+    #dashboard_two .dashboard-two-header .header-left .menu-icon{
+        display: none;
+    }
+    #dashboard_two .dashboard-two-header .header-left .mobile-menu-icon{
+        display: block;
+    }
+    
+    #dashboard_two #dashboard_two_body #dashboard_one .dashboard-one-middle .patients-info .patient-boxes .single-box{
+        margin-bottom: 10px;
+    }
+    #dashboard_two #dashboard_two_body #dashboard_one .dashboard-one-middle .patients-info-mobile{
+        display: block;
+        margin: 100px 0 30px 0;
+    }
+    #dashboard_two #dashboard_two_body #dashboard_one .dashboard-one-middle .patients-info{
+        display: none;
+    }
+    #dashboard_two #dashboard_two_body #dashboard_one .dashboard-one-middle .patients-info-mobile .single-box{
+        margin-bottom: 10px;
+    }
+    #dashboard_two #dashboard_two_body #dashboard_one .dashboard-one-middle .patients-info-mobile .patient-header{
+        display: none;
+    }
+    #dashboard_two #dashboard_two_body #dashboard_one .dashboard-one-middle .patients-info-mobile .patient-boxes .single-box .icon{
+        margin-top: 20px;
+    }
+    #dashboard_one .dashboard-one-middle .income-chart .chart-graph{
+        display: none!important;
+    }
+    #dashboard_one .dashboard-one-middle .income-chart .chart-graph-mobile{
+        display: block!important;
+    }
+    #dashboard_two #dashboard_two_body #dashboard_next .appointment-table .appointment-header{
+        display: none;
+    }
+    #dashboard_two #dashboard_two_body #dashboard_next .right .next-tab{
+        display: none;
+    }
+    #dashboard_two #dashboard_two_body #dashboard_next .left .appointments{
+        margin-bottom:60px;
+    }
+    #dashboard_two #dashboard_two_body #dashboard_next .right {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    #dashboard_two #dashboard_two_body #dashboard_next .left .appointments {
+        padding: 50px 0px 0px 10px;
+        margin-top: 50px;
+    }
+    #dashboard_two #dashboard_two_body #dashboard_next .right{
+        margin-bottom: 80px;
+    }
+}
+
+
+
+
+@media(max-width: 575px){
+    #dashboard_two #dashboard_two_body #dashboard_one .dashboard-one-middle{
+        padding: 0 3px;
+    }
+    #dashboard_two #dashboard_two_body #dashboard_one .dashboard-one-right{
+        padding: 0 3px;
+        padding-bottom: 20px;
+    }
+    #dashboard_two #dashboard_two_body #dashboard_one .dashboard-one-middle .income-chart .chart-header{
+        display: none;
+    }
+    
+}
+
